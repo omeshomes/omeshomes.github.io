@@ -161,7 +161,7 @@ a {
     height: auto;
     padding: 100px 0;
     text-align: center;
-    color: $intro-text-color;
+    color: #fff;
     {% if site.background-img %}
     background: url({{ site.background-img }}) no-repeat bottom center scroll;
     {% endif %}
@@ -171,8 +171,9 @@ a {
     background-size: cover;
     -o-background-size: cover;
     .intro-body {
-        display: table-cell;
+        /*display: table-cell;*/
         vertical-align: middle;
+        color: #31a3ea;
         .brand-heading {
             font-size: 40px;
         }
@@ -194,6 +195,15 @@ a {
                 font-size: 26px;
             }
         }
+    }
+}
+
+.prof-links {
+    display: flex;
+    justify-content: space-between;
+    :before {
+        color: #fff;
+        font-size: 70px;
     }
 }
 
