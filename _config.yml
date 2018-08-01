@@ -30,7 +30,7 @@ force-https: True
 
 lang: "en"
 author: "Omid"
-title: "{ Omid Rooholfada }"
+title: "Omid Rooholfada"
 description: "The personal website of Omid Rooholfada."
 keywords: "rooholfada, omid, personal, jekyll, coding, tech, math, music, reading"
 favicon: "/img/favicon.ico"
